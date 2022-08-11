@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=/usr/local
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: hts_engine_API
+Description: hts_engine API - a library to synthesize speech waveform from HMMs trained by the HMM-based speech synthesis system (HTS).
+Version: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lhts_engine_API
